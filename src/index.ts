@@ -46,8 +46,8 @@ async function processarArquivo(caminho: string, fileName: string) {
                 telefone,
                 codigo,
                 nome,
-                valorTotal,
                 valorParcela,
+                valorTotal,
                 banco
             }
 
@@ -85,8 +85,8 @@ async function salvarNovaBase(linhas: Line[], caminho: string) {
         line.telefone,
         line.codigo,
         line.nome,
-        line.valorTotal,
         line.valorParcela,
+        line.valorTotal,
         line.banco
     ].join(';'))
 
