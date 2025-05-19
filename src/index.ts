@@ -61,7 +61,7 @@ async function processarArquivo(caminho: string, fileName: string) {
             // console.log({telefone, codigo, nome, valorTotal, valorParcela, banco});
         }
 
-        await salvarNovaBase(newFile, path.join(__dirname, 'save', `UPDATED-${fileName}`))
+        await salvarNovaBase(newFile, path.join(__dirname, 'save', `${fileName}`))
 
     } catch (error) {
         console.error(error)
